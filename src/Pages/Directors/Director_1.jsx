@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "../../assets/building_2.jpg";
-import "./ChairPersons-Directors-Controller.css";
-import Chairperson1 from "../../assets/ChairPersons/ChairPerson1.jpg";
+import "../ChairPersons/ChairPersons-Directors-Controller.css";
+import Director1 from "../../assets/Directors/Director1.jpg";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-const ChairPerson1 = () => {
+const Director_1 = () => {
   return (
     <>
     <Navbar />
@@ -21,19 +21,19 @@ const ChairPerson1 = () => {
           {/* Content */}
           <div className="hero-cont">
             <h3 className="hero-tit">
-             Meet Our Chairperson:-
+             Meet Our Executive Director:-
             </h3>
-            <p className="hero-name">Smt. Sudesh Ahuja</p>
+            <p className="hero-name">Mr. Akshaj Rastogi</p>
           </div>
         </div>
       </div>
-      <div className="chairperson-section">
-        <div className="chairperson-img">
-          <img src={Chairperson1} alt="" className="bg-transparent"/>
+      <div className="chairperson-section director">
+        <div className="chairperson-img director-img">
+          <img src={Director1} alt="" className=""/>
         </div>
         <div className="chairperson-content">
-            <h3 className="chairperson-title">Message from Chairperson</h3>
-            <h2 className="chairperson-name">Smt. Sudesh Ahuja</h2>
+            <h3 className="chairperson-title">Message from Director</h3>
+            <h2 className="chairperson-name">Mr. Akshaj Rastogi</h2>
           <p>
             "Dear Students, Your dedication inspires us! Keep striving for excellence Remember, every challenge is an opportunity to grow. Best wishes!"
           </p>
@@ -48,4 +48,4 @@ const ChairPerson1 = () => {
   );
 };
 
-export default ChairPerson1;
+export default Director_1;

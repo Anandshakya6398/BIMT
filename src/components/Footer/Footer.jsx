@@ -119,7 +119,7 @@ const Footer = () => {
             <iframe
               title="BIMT Institute Location"
               className="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.6976308189346!2d79.14649487406612!3d28.003145912385715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39754365082f1d8d%3A0x60c074a43f991681!2sBadaun%20Institute%20Of%20Management%20%26Technology%20(BIMT)!5e0!3m2!1sml!2sin!4v1743138963729!5m2!1sml!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3522.6977856757553!2d79.14649487433559!3d28.003141176014314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39754365082f1d8d%3A0x60c074a43f991681!2sBadaun%20Institute%20Of%20Management%20%26Technology%20(BIMT)!5e0!3m2!1sen!2sin!4v1733980652555!5m2!1sen!2sin"
               allowFullScreen=""
               loading="lazy"
             ></iframe>

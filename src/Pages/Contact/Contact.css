@@ -7,6 +7,11 @@
     min-height: 300px;
     color: white;
   }
+  @media (max-width: 640px) {
+    .contact-section-top{
+      margin-top: -3rem;
+    }
+  }
   
   .overlay {
     background-color: rgba(240, 74, 74, 0.4);  

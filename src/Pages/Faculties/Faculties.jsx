@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "../../assets/building_2.jpg";
 import { FaUserGraduate, FaUsers, FaIndustry } from "react-icons/fa";
-// import Arvind from "../assets/Teachers/Arvindsir.png";
 import Arvind from '../../assets/Teachers/Arvindsir.png'
 import Manoj from "../../assets/Teachers/Manojsir.png";
 import Sourav from "../../assets/Teachers/Souravsir.png";
@@ -21,7 +20,7 @@ const Faculties = () => {
     <div>
         <Navbar />
         <Header />
-        <div className="hero-section ">
+        <div className="hero-section">
       {/* Background Image */}
       <div
         className="hero-background"

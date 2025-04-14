@@ -14,8 +14,10 @@
       height: 300px;
     }
   }
+ 
   
   .hero-background {
+    /* margin-top: -3rem; */
     position: absolute;
     inset: 0;
     background-size: cover;
@@ -65,7 +67,11 @@
       font-size: 1.25rem;
     }
   }
-  
+  @media (max-width: 640px) {
+  .hero-background {
+    margin-top: -3rem;
+  }
+}
   .stats-container {
     margin-top: 1.5rem;
     display: flex;

@@ -1,12 +1,13 @@
+
 import React from "react";
 import Image from "../../assets/building_2.jpg";
 import "./ChairPersons-Directors-Controller.css";
-import Chairperson1 from "../../assets/ChairPersons/ChairPerson1.jpg";
+import Chairperson3 from "../../assets/ChairPersons/ChairPerson3.jpg";
 import Navbar from "../../components/Navbar/Navbar";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 
-const ChairPerson1 = () => {
+const ChairPerson3 = () => {
   return (
     <>
     <Navbar />
@@ -23,23 +24,27 @@ const ChairPerson1 = () => {
             <h3 className="hero-tit">
              Meet Our Chairperson:-
             </h3>
-            <p className="hero-name">Smt. Sudesh Ahuja</p>
+            <p className="hero-name">Shri Mukesh Rastogi</p>
           </div>
         </div>
       </div>
       <div className="chairperson-section">
         <div className="chairperson-img">
-          <img src={Chairperson1} alt="" className="bg-transparent"/>
+          <img src={Chairperson3} alt="" className="bg-transparent"/>
         </div>
         <div className="chairperson-content">
             <h3 className="chairperson-title">Message from Chairperson</h3>
-            <h2 className="chairperson-name">Smt. Sudesh Ahuja</h2>
+            <h2 className="chairperson-name">Shri Mukesh Rastogi</h2>
           <p>
-            "Dear Students, Your dedication inspires us! Keep striving for excellence Remember, every challenge is an opportunity to grow. Best wishes!"
+            "Dear Students, as your chairperson, I'm proud of your dedication.
+            Let's embrace challenges, faster growth, and make our college
+            community even stronger. Forward together!"
           </p>
           <br />
           <p>
-            "प्रिय छात्रों, आपकी प्रतिबद्धता हमें प्रेरित करती है! उत्कृष्टता की ओर प्रयास करते रहें। याद रखें, हर चुनौती विकसित होने का एक अवसर है। शुभकामनाएँ!"
+            "प्रिय छात्रों, आपके अध्यक्ष के रूप में, मुझे आपके समर्पण पर गर्व
+            है। आइए चुनौतियों को स्वीकार करें, तेजी से विकास करें, और अपने कॉलेज
+            समुदाय को और भी मजबूत बनाएं। एक साथ आगे बढ़ें!"
           </p>
         </div>
       </div>
@@ -48,4 +53,4 @@ const ChairPerson1 = () => {
   );
 };
 
-export default ChairPerson1;
+export default ChairPerson3;
