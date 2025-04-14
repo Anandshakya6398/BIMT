@@ -50,6 +50,22 @@ const About = () => {
     const interval = setInterval(scroll, 10);
     return () => clearInterval(interval);
   }, [isPaused]);
+  // const scrollRef = useRef(null);
+  // const [isPaused, setIsPaused] = useState(false);
+
+  // useEffect(() => {
+  //   if (isPaused) return;
+  //   const scroll = () => {
+  //     if (scrollRef.current) {
+  //       scrollRef.current.scrollLeft += 1;
+  //       if (scrollRef.current.scrollLeft >= scrollRef.current.scrollWidth / 2) {
+  //         scrollRef.current.scrollLeft = 0;
+  //       }
+  //     }
+  //   };
+  //   const interval = setInterval(scroll, 10);
+  //   return () => clearInterval(interval);
+  // }, [isPaused]);
 
   const features = [
     {
@@ -242,25 +258,26 @@ const About = () => {
           </div>
         </div>
 
-        <div className="campus-gallery">
-          <h2 className="gallery-title">Campus Life & Events</h2>
-          <div
-            ref={scrollRef}
-            className="gallery-scroll"
-            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-          >
-            {[...images, ...images].map((src, index) => (
-              <img
-                key={index}
-                src={src}
-                alt={`Campus Life ${(index % images.length) + 1}`}
-                className="gallery-img"
-                onMouseEnter={() => setIsPaused(true)}
-                onMouseLeave={() => setIsPaused(false)}
-              />
-            ))}
-          </div>
-        </div>
+        <div className="campus-gallery-container">
+  <h2 className="campus-gallery-title">Campus Life & Events</h2>
+  <div
+    ref={scrollRef}
+    className="campus-gallery-scroll"
+    style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+  >
+    {[...images, ...images].map((src, index) => (
+      <img
+        key={index}
+        src={src}
+        alt={`Campus Life ${(index % images.length) + 1}`}
+        className="campus-gallery-img"
+        onMouseEnter={() => setIsPaused(true)}
+        onMouseLeave={() => setIsPaused(false)}
+      />
+    ))}
+  </div>
+</div>
+
       </div>
       <Footer />
     </>
