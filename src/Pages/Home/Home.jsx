@@ -245,7 +245,7 @@ const Home = () => {
       <div className="aboutSection">
       <div className="titleBimt">
         <div className="textBimt">
-          <h2 className="mainHeading">About  B.I.M.T  Institute</h2>
+          <h2 className="mainHeading">About  BIMT  Institute</h2>
           <p className="mainPara"><i>
             "Innovation, Research & Transformation - Shaping the Future of
             Education"</i>

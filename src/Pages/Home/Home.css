@@ -145,7 +145,7 @@
         gap: 1rem;
     }
     
-    .titleBimt .textBimt{
+   .textBimt{
         width: 100%;
         height: 50%;
         padding-left: 3rem;
@@ -284,7 +284,8 @@
     
     .image img{
         width: 70%;
-        height: 100vh;
+        height: auto;
+        border-radius: 20px;
         transition: transform 0.2s ease-in-out;
     }
     
@@ -351,16 +352,85 @@
       
       @media screen and (max-width: 600px) {
         .aboutSection{
-            padding-top: 0;
+            padding-top: 50px;
         }
         .titleBimt {
             width: 90%;
         }
+        .textBimt{
+          margin-bottom: 20px;
+        }
+
+        .mainHeading{
+          line-height: 2rem;
+          word-spacing: 0;
+          
+        }
+      
+        .mainPara{
+          font-size: 15px;
+          line-height: 2rem;
+        }
+      
+        .aboutPara{
+          font-size: 1.1rem;
+          font-weight: 500;
+          line-height: 0;
+          color: #000;
+          text-align: justify;
+          word-spacing: 0;
+        }
+      
+        .aboutPara span{
+          font-weight: 600;
+          color: #a80f14;
+        }
+      
+        .readBtn{
+          display: none;
+        }
+        .vision {
+          width: 100%;
+        }
+
+        .box {
+          width: 100%;
+          align-items: start;
+          padding: 2rem;
+        }
+        .visionTop{
+          padding-bottom: 1rem;
+      }
+      
+      
+      .visionTop .visionHead{
+          font-size: 1.2rem;
+          padding-bottom: 0.5rem;
+      }
+      
+      .visionTop .para1{
+          font-size: 0.8rem;
+          word-spacing: 0.05rem;
+      }
+      
+      .para2{
+          font-size: 0.8rem;
+          color: rgb(62, 59, 59);
+          word-spacing: 0rem;
+      }
+      
+      .para2 span{
+          font-weight: 600;
+          color: #b4171c;
+      }
+        
         .image{
-            width: 90%;
+            width: 100%;
+            padding: 10px;
         }
         .image img{
             width: 80%;
+            height: 80vh;
         }
         .mainHeading {
           font-size: 1.5rem;
@@ -649,6 +719,21 @@
         .campus-content {
           max-width: 100%;
         }
+
+        .campus-title{
+          font-size: 30px;
+          font-weight: 600;
+          text-align: center;
+          word-spacing: 0.2rem;
+        }
+        .campus-description {
+          font-size: 16px;
+          color: #3f3c3c;
+          line-height: 1.6rem;
+          letter-spacing: 0.3px;
+          word-spacing: 0.05rem;
+          margin-top: 15px;
+        }
       
         .campus-video {
           max-width: 100%;
@@ -658,7 +743,23 @@
       
         .facilities {
           justify-content: center;
+          margin-top: 40px;
         }
+        .facility-card {
+          gap: 5px;
+          padding: 10px;
+          font-size: 15px;
+          font-weight: 400;
+        }
+        .campus-video {
+          width: 90%;
+          padding-top: 30px;
+        }
+        
+        .campus-video iframe {
+          height: 250px;
+        }
+        
       }
   
       
@@ -964,5 +1065,41 @@
       .box3 { top: 20%; right: 20%; }
       .box4 { top: 50%; right: 15%; }
       .box5 { bottom: 10%; right: 18%; }
+
+@media screen and (max-width:700px){
+  .banner h2 {
+    font-size: 30px;
+    word-spacing: 0.1rem;
+  }
+
+  /*  Option Choosing CSS */
+
+  .features-container {
+    height: 500px;
+  }
+
+  .image-container{
+    opacity: 1;
+  }
+  
+  .image-container img {
+    width: 200px;
+  }
+  .feature-box {
+    padding: 15px 7px;
+  }
+  .feature-box.visible {
+    z-index: 2;
+  }
+  
+  
+  /* Positioning different boxes */
+  .box1 { top: 5%; left: 5%; }
+  .box2 { top: 50%; left: 0%; }
+  .box3 { top: 15%; right: 0%; }
+  .box4 { top: 45%; right: 5%; }
+  .box5 { bottom: 15%; right: 10%; }
+
+}
       
   
