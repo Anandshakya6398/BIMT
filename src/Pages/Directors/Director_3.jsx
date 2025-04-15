@@ -20,7 +20,7 @@ const Director_3 = () => {
 
           {/* Content */}
           <div className="hero-cont">
-            <h3 className="hero-tit">Meet Our Executive Director:-</h3>
+            <h3 className="hero-tit">Meet Our Director:-</h3>
             <p className="hero-name">Mr. Vikas Ahuja</p>
           </div>
         </div>

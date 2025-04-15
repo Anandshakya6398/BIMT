@@ -21,7 +21,7 @@ const Director_2 = () => {
           {/* Content */}
           <div className="hero-cont">
             <h3 className="hero-tit">
-             Meet Our Executive Director:-
+             Meet Our Director:-
             </h3>
             <p className="hero-name">Mr. Ashish Singhal</p>
           </div>
