@@ -79,7 +79,7 @@ const Header = () => {
                   <div className="dropdown-section">
                     <h4>Controller</h4>
                     <ul>
-                      <Link className="link active" to='#'>Prof. K.P. Singh</Link>
+                      <Link className="link active" to='/controller'>Prof. K.P. Singh</Link>
                     </ul>
                   </div>
                 </div>

@@ -11,8 +11,10 @@ import ChairPerson1 from './Pages/ChairPersons/ChairPerson1';
 import ChairPerson2 from './Pages/ChairPersons/ChairPerson2';
 import ChairPerson3 from './Pages/ChairPersons/ChairPerson3';
 import ChairPerson4 from './Pages/ChairPersons/ChairPerson4';
-import Director1 from './Pages/Directors/Director_1';
-// import Director1 from './Pages/Directors/Director1';
+import Director_2 from './Pages/Directors/Director_2';
+import Director_1 from './Pages/Directors/Director_1';
+import Director_3 from './Pages/Directors/Director_3';
+import Controller from './Pages/Chancellor/Controller';
 
 
 function App() {
@@ -31,7 +33,10 @@ function App() {
           <Route path='/chairperson2' element={<ChairPerson2 />} />
           <Route path='/chairperson3' element={<ChairPerson3 />} />
           <Route path='/chairperson4' element={<ChairPerson4 />} />
-          <Route path='/director1' element={<Director1 />} />
+          <Route path='/director1' element={<Director_1 />} />
+          <Route path='/director2' element={<Director_2 />} />
+          <Route path='/director3' element={<Director_3 />} />
+          <Route path='/controller' element={<Controller />} />
         </Routes>
     </>
   )

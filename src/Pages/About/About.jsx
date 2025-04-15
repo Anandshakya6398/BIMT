@@ -196,10 +196,7 @@ const About = () => {
             <div className="vision-card">
               <h3 className="card-title">Vision Statement</h3>
               <div className="card-text">
-                To be a premier College of higher learning that advances
-                research, innovation, and ethical leadership, empowering
-                students to drive sustainable development and societal
-                well-being with integrity.
+              BIMT Provides student with quality educational experiences and support services that lead to the successful completion of degrees, transfer certificates and basic skills proficiency. Through measurable learning out comes, ethical data driver decisions and student achievement.
               </div>
             </div>
             <div className="mission-card ">
