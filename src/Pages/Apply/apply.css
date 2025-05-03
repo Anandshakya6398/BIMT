@@ -1,0 +1,177 @@
+
+.contact-container {
+    margin: -2rem auto;
+    background-color: #e0f2fe;
+    padding: 2.5rem 1rem;
+  }
+  
+  .admission-heading {
+    color: #dc2626;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .admission-subheading {
+    font-size: 1.125rem;
+    text-align: center;
+    color: #374151;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+  }
+  
+  .info-form-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .info-box,
+  .form-box {
+    background: rgb(248, 244, 244);
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    flex: 1 1 400px;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+  
+  .info-heading {
+    color: #dc2626;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .info-points .info-point {
+    border-left: 4px solid #f87171;
+    padding-left: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .info-point h3 {
+    margin: 0;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  .info-point p {
+    margin: 0.25rem 0 0;
+    color: #111827;
+  }
+  
+  .contact-details {
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-details h3 {
+    margin: 0 0 0.5rem;
+    color: #1f2937;
+  }
+  
+  .contact-details p {
+    margin: 0.25rem 0;
+    color: #374151;
+  }
+  
+  .admission-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .admission-form label {
+    font-weight: 500;
+    color: #374151;
+    font-size: 0.875rem;
+  }
+  
+  .admission-form input,
+  .admission-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.2s border;
+  }
+  
+  .admission-form input:focus,
+  .admission-form textarea:focus {
+    border-color: #3b82f6;
+  }
+  
+  .admission-form textarea {
+    resize: none;
+    height: 3rem;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #3b82f6;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    background: linear-gradient(to right, #3b82f6, #6366f1);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    margin-top: 0.5rem;
+  }
+  
+  .submitted-msg {
+    color: green;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .fee-structure {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.125rem;
+    color: #374151;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  
+  }
+  
+  .fee-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #033381;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .fee-image {
+    width: auto;
+    max-width: 100%;
+    /* max-height: 700px; */
+    margin: auto;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
