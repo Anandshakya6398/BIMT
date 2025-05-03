@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 const Apply = () => {
   const form = useRef();
   const [isSubmitted, setIsSubmitted] = useState(false);
-
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
